@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    
+  
+}
+
+
+body {
+    font-family: "微軟正黑體";
+    font-weight:bolder;
+    width: 100vw;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    background: #7EBDC3;
+  
+ 
+
+}
+
+header {
+    font-size: 24px;
+    width: 100vw;
+    height: 9vh;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 9vh;
+    color: rgb(255, 255, 255);
+    background:  #558185;
+    
+
+}
+
+
+.inputArea td {
+    padding: 10px;
+    height: 20px;
+ 
+}
+
+div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #7EBDC3;
+
+}
+
+table.inputArea {
+    color: #558185;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 20px auto;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:  2px 3px 3px #535353;
+
+}
+
+
+input {
+    border: none;
+    outline:none;
+    border-bottom: solid 1.5px #558185 ;
+    height: 20px;
+   
+}
+input:focus {
+   box-shadow:  0px 3px 7px #bebebe;
+   
+}
+
+.tdBtn {
+    padding: 0;
+    position: relative;
+ 
+ }
+
+input.saveBtn {
+    width:50%;
+    height: 100%;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    background: #558185;
+    transition: all 0.3s;
+    position: relative;
+    right: -80px;
+  
+}
+
+input.saveBtn:hover {
+    background: #7aaeb3;
+    transform: scale(1.1);
+}
+
+input.saveBtn:active {
+    background: #7aaeb3;
+    transform: translateY(-2px);
+}
+
+
+
+
+table.renderArea {
+    width: 90%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  
+
+    
+
+
+}
+
+table.renderArea>thead{
+    background: #558185;
+    color: rgb(255, 255, 255);
+}
+
+table.renderArea>tbody{
+    background: rgb(255, 255, 255);
+    color:#558185;
+    
+    
+}
+
+
+.renderArea td {
+    padding: 8px 10px 15px 10px;
+   
+}
+
+td.icons{
+    position: relative;
+
+}
+
+.material-icons {
+    cursor: pointer;
+    position: relative;
+    top:5px;
+    transition: all 0.3s;
+}
+
+.material-icons:hover {
+    color:#7aaeb3;
+    transform: scale(1.2);
+}
+
+.material-icons:active {
+    transform: translateY(-3px);
+}
+
+
+
+.material-icons.md-24 { font-size: 24px; }
+
