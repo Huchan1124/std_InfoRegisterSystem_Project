@@ -16,19 +16,19 @@
         <table class="inputArea">
             <tr>
                 <td>姓名:</td>
-                <td><input type="text" name="myName"></td>
+                <td><input type="text" name="myName" class="name"placeholder="請輸入姓名" required></td>
             </tr>
             <tr>
                 <td>學號:</td>
-                <td><input type="text" name="myId"></td>
+                <td><input type="text" name="myId" class="id" placeholder="請輸入學號" required></td>
             </tr>
             <tr>
                 <td>系所:</td>
-                <td><input type="text" name="myMajor"></td>
+                <td><input type="text" name="myMajor" class="major" placeholder="請輸入系所" required></td>
             </tr>
             <tr>
                 <td>組別:</td>
-                <td><input type="text" name="myGroupNum"></td>
+                <td><input type="text" name="myGroup" class="group" placeholder="請輸入組別" required></td>
             </tr>
             <tr>
                 <td></td>
@@ -48,19 +48,20 @@
                 <td></td>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="list">
             <tr>
                 <td>01</td>
                 <td>王小熊</td>
                 <td>ABC12345</td>
                 <td>中文系</td>
                 <td>第一組</td>
-                <td class="icons"><span class="material-icons">
+                <td class="icons"><span class="deleteBtn material-icons">
                     delete_outline
                     </span></td>
             </tr>
         </tbody>
     </table>
+    <script src="./all.js"></script>
 </body>
 </html>
 
